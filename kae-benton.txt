@@ -41,14 +41,21 @@ Copy the questions below into the first-lastname.txt file on your github repo - 
     35. How often should I commit to github? About every 20 minutes, or as much as possible. 
     36. What is the command we would use to push our repo up to github? git push
     37. Walk me through Lambda's git flow. 
+            1. Fork the repo to make your own copy and add TL as a collaborator.
+            2. Clone the repo by c/p the address into the terminal: git clone linkToRepo into the appropriate directory 
+            3. In terminal, create a branch that is your own: git checkout -b firstname-lastname
+            4. Run the git commands: git add . , git commit -m "message" , git push 
+            5. Create a PR under your own branch name by changing the branch name, click PR button.
+            6. On pull request page, change base repository to your forked repo add your TL as a reviewer.
+            7. Submit the PR, do not merge. 
 
 Stretch Questions
 
-    1. What is the difference between an inline element and a block element?
-    2. What happens when an element is positioned absolutely? 
-    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
-    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
-    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+    1. What is the difference between an inline element and a block element? Inline elements remain on the same line while block elements take up their own line. 
+    2. What happens when an element is positioned absolutely? The element will stay in place according to the set values. 
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? Manipulate the box model of that element. 
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default. Display block elements: div, p, ul Display inline: span, a, img
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? The box model identifies the spacing around content on a page that includes the area the content is in, area just around the content (padding), a border around both the conent and padding, and then the margin which is the final area around that. To fix the box model, define the values of each element of the box. 
 
 
 
